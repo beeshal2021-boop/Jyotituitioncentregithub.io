@@ -1,29 +1,53 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - Jyoti Tuition Centre</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Jyoti Tuition Centre</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="courses.html">Courses</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
 
-header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
+    <main>
+        <section>
+            <h2>Our Courses & Fees</h2>
+            <table>
+                <tr>
+                    <th>Class</th>
+                    <th>Subjects</th>
+                    <th>Fee (Rs)</th>
+                </tr>
+                <tr>
+                    <td>6-8</td>
+                    <td>Math, Science, English, Nepali</td>
+                    <td>3,000/month</td>
+                </tr>
+                <tr>
+                    <td>9-10</td>
+                    <td>Math, Science, English, Social Studies</td>
+                    <td>4,000/month</td>
+                </tr>
+                <tr>
+                    <td>11-12 (Management)</td>
+                    <td>Accounts, Economics, Business Studies</td>
+                    <td>5,000/month</td>
+                </tr>
+            </table>
+        </section>
+    </main>
 
-nav a {
-    color: white;
-    margin: 0 10px;
-    text-decoration: none;
-}
+    <footer>
+        <p>&copy; 2025 Jyoti Tuition Centre | All rights reserved</p>
+    </footer>
+</body>
+</html>
 
-main {
-    padding: 20px;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
